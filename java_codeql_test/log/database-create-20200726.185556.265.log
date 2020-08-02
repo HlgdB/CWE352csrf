@@ -1,0 +1,21 @@
+[2020-07-26 18:55:56] This is codeql database create java_codeql_test --language=java
+[2020-07-26 18:55:56] Log file was started late.
+[2020-07-26 18:55:56] Using autobuild script D:\codeql\codeql\java\tools\autobuild.cmd.
+[2020-07-26 18:55:56] [DETAILS] database create> Detected autobuild command: D:\codeql\codeql\java\tools\autobuild.cmd.
+[2020-07-26 18:55:56] [PROGRESS] database create> Running command [D:\codeql\codeql\java\tools\autobuild.cmd] in D:\大创文件\0706\CWE352java.
+[2020-07-26 18:55:56] Running plumbing command: codeql database trace-command --working-dir=D:\大创文件\0706\CWE352java -- D:\大创文件\0706\CWE352java\java_codeql_test D:\codeql\codeql\java\tools\autobuild.cmd
+[2020-07-26 18:55:56] [PROGRESS] database trace-command> D:\大创文件\0706\CWE352java\java_codeql_test: Running in D:\大创文件\0706\CWE352java: [D:\codeql\codeql\java\tools\autobuild.cmd]
+[2020-07-26 18:55:56] Setting up tracing from specification at D:\codeql\codeql\java\tools\compiler-tracing.spec.
+[2020-07-26 18:55:56] Picked up extra JVM args: '-javaagent:D:\codeql\codeql\java\tools/codeql-java-agent.jar=ignore-project,java' '-Xbootclasspath/a:D:\codeql\codeql\java\tools/codeql-java-agent.jar'
+[2020-07-26 18:55:56] [build] Failed to read configuration from file D:\大创文件\0706\CWE352java\java_codeql_test\working\tracing\compiler-tracing471883930446490728.spec, aborting.
+[2020-07-26 18:55:56] [build-err] [T 18:55:56 20592] Could not open tracer log file D:\澶у垱鏂囦欢\0706\CWE352java\java_codeql_test\log\build-tracer.log for writing (No such file or directory)
+[2020-07-26 18:55:56] [ERROR] Spawned process exited abnormally (code -1; tried to run: [D:\codeql\codeql\tools\win64\tracer.exe, D:\codeql\codeql\tools\win64\runner.exe, cmd.exe, /C, type, NUL, &&, D:\codeql\codeql\java\tools\autobuild.cmd])
+[2020-07-26 18:55:56] Exception caught at top level: Exit status -1 from command: [D:\codeql\codeql\tools\win64\runner.exe, cmd.exe, /C, type, NUL, &&, D:\codeql\codeql\java\tools\autobuild.cmd]
+                      com.semmle.cli2.database.DatabaseProcessCommandCommon.executeSubcommand(DatabaseProcessCommandCommon.java:105)
+                      com.semmle.cli2.picocli.PlumbingRunner.run(PlumbingRunner.java:78)
+                      com.semmle.cli2.picocli.SubcommandCommon.runPlumbingInProcess(SubcommandCommon.java:137)
+                      com.semmle.cli2.database.CreateCommand.executeSubcommand(CreateCommand.java:102)
+                      com.semmle.cli2.picocli.SubcommandCommon.call(SubcommandCommon.java:408)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:182)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:190)
+                      com.semmle.cli2.CodeQL.main(CodeQL.java:89)

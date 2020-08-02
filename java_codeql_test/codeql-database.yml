@@ -1,0 +1,21 @@
+---
+sourceLocationPrefix: "D:\\大创文件\\0706\\CWE352java"
+unicodeNewlines: false
+columnKind: "utf16"
+inProgress:
+  primaryLanguage: "java"
+  installedExtractors:
+    cpp:
+    - "file:///D:/codeql/codeql/cpp/"
+    csharp:
+    - "file:///D:/codeql/codeql/csharp/"
+    go:
+    - "file:///D:/codeql/codeql/go/"
+    java:
+    - "file:///D:/codeql/codeql/java/"
+    javascript:
+    - "file:///D:/codeql/codeql/javascript/"
+    python:
+    - "file:///D:/codeql/codeql/python/"
+    xml:
+    - "file:///D:/codeql/codeql/xml/"
